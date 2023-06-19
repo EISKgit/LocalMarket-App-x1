@@ -29,7 +29,7 @@ export default function Footer (){
             </div>
 
             <div>
-                <h6>Connect With Us</h6>
+                <h6>Social Networks</h6>
                 <div style={{display:"grid"}}>
                 <a href="/"><FaFacebook /> FaceBook</a>
                 <a href="/"><AiFillTwitterCircle /> Twitter</a>

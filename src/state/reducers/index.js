@@ -1,11 +1,11 @@
 import { combineReducers } from "redux";
-import nameReducer from "./nameReducer";
+import { ApiReducer } from "./ApiReducer";
 
 
 
-const reducers= combineReducers({
-    name:nameReducer
+const rootReducers= combineReducers({
+    ApiData:ApiReducer
 });
 
 
-export default reducers;
+export default rootReducers;

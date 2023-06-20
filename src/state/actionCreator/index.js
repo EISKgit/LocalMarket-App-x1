@@ -1,10 +1,14 @@
-const myName =()=> {
-    return (dispatch)=>{
-        dispatch({
-            type:"name",
-            payload:"EISK"
+
+
+
+const getDataMethod = (data) => {
+    return (dispatch) => {
+        dispatch ({
+            type:"GET_DATA",
+            payload:data
         })
     }
 }
 
-export default myName;
+
+export default getDataMethod;
